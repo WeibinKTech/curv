@@ -63,3 +63,8 @@ default = ["rust-gmp-kzen"]
 
 [package.metadata.docs.rs]
 rustdoc-args = [ "--html-in-header", "katex-header.html", "--cfg", "docsrs" ]
+
+[dependencies.curv-kzen]
+version = "0.8"
+default-features = false
+features = ["num-bigint"]
