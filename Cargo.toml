@@ -43,7 +43,7 @@ rust-gmp-kzen = { version = "0.5", features = ["serde_support"], optional = true
 num-bigint = { version = "0.4", features = ["serde"], optional = true }
 
 [dependencies.secp256k1]
-git = "https://github.com/tirogen/rust-secp256k1.git"
+git = "https://github.com/WeibinKTech/rust-secp256k1.git"
 branch = "v0.20.3.1"
 features = ["serde", "rand-std", "global-context"]
 
